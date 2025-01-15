@@ -7,8 +7,8 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
-// app.use(express.static("public"));
-// app.use("/api/1.0", require("./app/routes"));
+app.use(express.static("public"));
+app.use("/api/1.0", require("./app/routes"));
 
 app.listen(PORT, () => {
   console.log(`Tu API es http://localhost:${PORT}/api/1.0`);
