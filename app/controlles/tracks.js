@@ -20,7 +20,7 @@ const getItems = async (req, res) => {
           start: 0,
           end: 333,
         },
-        url: `${URL_PUBLIC}/track.mp3`,
+        url: `/track.mp3`,
       },
       {
         _id: 2,
@@ -37,7 +37,7 @@ const getItems = async (req, res) => {
           start: 0,
           end: 333,
         },
-        url: `${URL_PUBLIC}/track-1.mp3`,
+        url: `/track-1.mp3`,
       },
       {
         _id: 3,
@@ -54,7 +54,7 @@ const getItems = async (req, res) => {
           start: 0,
           end: 333,
         },
-        url: `${URL_PUBLIC}/track-2.mp3`,
+        url: `/track-2.mp3`,
       },
       {
         _id: 4,
@@ -71,7 +71,7 @@ const getItems = async (req, res) => {
           start: 0,
           end: 333,
         },
-        url: `${URL_PUBLIC}/track-4.mp3`,
+        url: `/track-4.mp3`,
       },
       {
         _id: 5,
@@ -88,7 +88,7 @@ const getItems = async (req, res) => {
           start: 0,
           end: 333,
         },
-        url: `${URL_PUBLIC}/track-3.mp3`,
+        url: `/track-3.mp3`,
       },
       {
         _id: 6,
@@ -105,7 +105,7 @@ const getItems = async (req, res) => {
           start: 0,
           end: 333,
         },
-        url: `${URL_PUBLIC}/track-5.mp3`,
+        url: `/track-5.mp3`,
       },
       {
         _id: 7,
@@ -122,7 +122,7 @@ const getItems = async (req, res) => {
           start: 0,
           end: 333,
         },
-        url: `${URL_PUBLIC}/track-6.mp3`,
+        url: `/track-6.mp3`,
       },
       {
         _id: 8,
@@ -139,7 +139,7 @@ const getItems = async (req, res) => {
           start: 0,
           end: 333,
         },
-        url: `${URL_PUBLIC}/track-7.mp3`,
+        url: `/track-7.mp3`,
       },
     ];
     res.send({ data: listAll });
