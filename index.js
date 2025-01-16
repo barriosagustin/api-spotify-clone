@@ -12,6 +12,8 @@ app.use("/api/1.0", require("./app/routes"));
 
 const URL_PUBLIC = process.env.URL_PUBLIC || `http://localhost:${PORT}`;
 
+app.use(express.static(path.join(__dirname, "public")));
+
 app.listen(PORT, () => {
   console.log(`Tu API está disponible en ${URL_PUBLIC}/api/1.0`);
 });
